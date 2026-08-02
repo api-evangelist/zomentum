@@ -1,0 +1,42 @@
+generated: '2026-07-21'
+method: searched
+source: https://help.zomentum.com/support/solutions/articles/44002337023-generating-an-api-user
+docs: https://api-docs.zomentum.com
+notes: >-
+  Zomentum's REST API uses Bearer token authentication. An administrator creates
+  an "API User" in the dashboard Settings (with scoped permissions) and generates
+  an access token and a refresh token; the access token is sent as an
+  Authorization: Bearer <token> header and renewed via the Refresh Token API.
+  The status page lists an Auth0 authorization server (user authentication, MFA,
+  Management API) as the identity provider behind these tokens. API access is
+  available on the Growth plan tier.
+summary:
+  types:
+  - http
+  - oauth2
+  http_schemes:
+  - bearer
+  oauth2_provider: Auth0
+  token_lifecycle:
+  - access_token
+  - refresh_token
+schemes:
+- name: BearerAuth
+  type: http
+  scheme: bearer
+  description: >-
+    Access token issued to an API User, sent as `Authorization: Bearer <token>`.
+    Renewed with the refresh token via the Refresh Token API.
+  sources:
+  - https://help.zomentum.com/support/solutions/articles/44002337023-generating-an-api-user
+- name: Auth0
+  type: oauth2
+  description: >-
+    Auth0 tenant acts as Zomentum's authorization server (confirmed on
+    status.zomentum.com: user authentication, MFA, and Management API). Access
+    and refresh tokens presented to the API are Auth0-issued bearer tokens.
+  sources:
+  - https://status.zomentum.com
+provisioning:
+  api_user: dashboard Settings -> API User (scoped permissions)
+  plan_required: Growth

@@ -1,8 +1,30 @@
 aid: zomentum
 name: Zomentum
-description: 'Zomentum is a company surfaced as a portfolio company of accel and added to the API Evangelist
-  network as a stub for enrichment. Sector: enterprise. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: >-
+  Zomentum is an AI-powered revenue platform built for managed service providers
+  (MSPs) and IT service businesses, unifying proposal and quote creation,
+  contracts and e-signatures, an MSP-focused CRM, workflow automation, and
+  integrated payment collection into a single "Turn Every Proposal Into Revenue"
+  workflow. Founded in 2018 (legal entity Pactora Inc) and headquartered in San
+  Francisco, Zomentum connects to 50+ PSA, accounting, and distributor systems —
+  including Autotask, ConnectWise Manage, HaloPSA, Syncro, QuickBooks, and Xero —
+  and exposes a REST API, documented via Postman at api-docs.zomentum.com and
+  served from api.zomentum.com, that uses Bearer token authentication (Auth0-issued
+  access and refresh tokens) provisioned through an API User in the dashboard and
+  available on the Growth plan.
+accessModel:
+  pricing: unknown
+  onboarding: self-serve
+  trial: false
+  try_now: false
+  public: false
+  label: Self-serve signup
+  confidence: medium
+  source:
+  - authentication
+  generated: '2026-07-22'
+  method: derived
+image: https://www.zomentum.com/wp-content/uploads/2019/09/Logo_Color_Black.png
 url: https://raw.githubusercontent.com/api-evangelist/zomentum/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,11 +34,41 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Enterprise
-apis: []
+- MSP
+- CRM
+- Sales
+- Proposals
+- Payments
+- Revenue Platform
+- PSA Integration
+apis:
+- name: Zomentum API
+  description: >-
+    REST API for the Zomentum revenue platform, documented as public Postman
+    documentation. Uses Bearer token authentication (Auth0-issued access and
+    refresh tokens) via an API User provisioned in the dashboard; available on
+    the Growth plan.
+  humanURL: https://api-docs.zomentum.com
+  baseURL: https://api.zomentum.com
+  tags:
+  - API
+  - REST
+  - MSP
+  properties:
+  - type: Documentation
+    url: https://api-docs.zomentum.com
+  - type: APIReference
+    url: https://api-docs.zomentum.com
+  - type: Postman
+    url: https://api-docs.zomentum.com
+  - type: GettingStarted
+    url: https://help.zomentum.com/support/solutions/articles/44002337023-generating-an-api-user
+  - type: Authentication
+    url: authentication/zomentum-authentication.yml
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
@@ -25,3 +77,46 @@ maintainers:
 common:
 - type: Website
   url: https://zomentum.com
+- type: Documentation
+  url: https://api-docs.zomentum.com
+- type: APIReference
+  url: https://api-docs.zomentum.com
+- type: Postman
+  url: https://api-docs.zomentum.com
+- type: GettingStarted
+  url: https://help.zomentum.com/support/solutions/articles/44002337023-generating-an-api-user
+- type: Support
+  url: https://help.zomentum.com/support/home
+- type: Blog
+  url: https://www.zomentum.com/blog
+- type: Pricing
+  url: https://www.zomentum.com/pricing
+- type: SignUp
+  url: https://accounts.zomentum.com/
+- type: Login
+  url: https://accounts.zomentum.com/
+- type: TermsOfService
+  url: https://www.zomentum.com/terms-and-conditions
+- type: PrivacyPolicy
+  url: https://www.zomentum.com/privacy-policy
+- type: StatusPage
+  url: https://status.zomentum.com
+- type: Roadmap
+  url: https://roadmap.zomentum.com
+- type: Security
+  url: https://www.zomentum.com/security
+- type: Authentication
+  url: authentication/zomentum-authentication.yml
+- type: Lifecycle
+  url: lifecycle/zomentum-lifecycle.yml
+- type: DomainSecurity
+  url: security/zomentum-domain-security.yml
+- type: VulnerabilityDisclosure
+  url: security/zomentum-vulnerability-disclosure.yml
+- type: LLMsTxt
+  url: llms/zomentum-llms.txt
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 5
+  pass: local-v1

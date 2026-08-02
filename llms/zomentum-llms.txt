@@ -1,0 +1,38 @@
+# Zomentum
+
+> Zomentum is an AI-powered revenue platform for managed service providers (MSPs) and IT service businesses, unifying proposals and quotes, contracts and e-signatures, an MSP-focused CRM, workflow automation, and integrated payment collection. It exposes a REST API (documented via Postman) that uses Bearer token authentication backed by Auth0, available on the Growth plan.
+
+## API
+
+- [Zomentum API Documentation](https://api-docs.zomentum.com): Public Postman documentation for the Zomentum REST API (base host: https://api.zomentum.com).
+- [Generating an API User](https://help.zomentum.com/support/solutions/articles/44002337023-generating-an-api-user): How to create an API User, generate access/refresh tokens, and authenticate.
+
+## Authentication
+
+- Bearer token (Authorization: Bearer <token>); Auth0-issued access + refresh tokens; API User provisioned in dashboard Settings; Growth plan required.
+- [Authentication profile](authentication/zomentum-authentication.yml)
+
+## Operations
+
+- [Status page](https://status.zomentum.com): Atlassian Statuspage covering Main/Integration/Callback API servers, Auth0 auth, and Chargebee billing.
+- [Roadmap](https://roadmap.zomentum.com): Public product roadmap.
+- [Lifecycle](lifecycle/zomentum-lifecycle.yml)
+
+## Security
+
+- [Security & responsible disclosure](https://www.zomentum.com/security): Report vulnerabilities to security@zomentum.com (no bug bounty).
+- [Vulnerability disclosure](security/zomentum-vulnerability-disclosure.yml)
+- [Domain security](security/zomentum-domain-security.yml)
+
+## Product & Docs
+
+- [Help Center](https://help.zomentum.com/support/home)
+- [Integrations](https://help.zomentum.com/support/solutions/folders/44001207946): 50+ PSA, accounting, and distributor integrations (Autotask, ConnectWise Manage, HaloPSA, Syncro, QuickBooks, Xero).
+- [Blog](https://www.zomentum.com/blog)
+- [Pricing](https://www.zomentum.com/pricing)
+- [Sign up / Login](https://accounts.zomentum.com/)
+
+## Legal
+
+- [Terms & Conditions](https://www.zomentum.com/terms-and-conditions)
+- [Privacy Policy](https://www.zomentum.com/privacy-policy)

@@ -1,0 +1,25 @@
+generated: '2026-07-21'
+method: searched
+source: https://status.zomentum.com
+status_page: https://status.zomentum.com
+status_page_platform: Atlassian Statuspage
+roadmap: https://roadmap.zomentum.com
+monitored_components:
+- Main API server
+- Integration API server
+- Callback API server
+- Client application
+- Subscription & billing manager (Chargebee)
+- Authorization server (Auth0)
+uptime_reported: "100.0% over trailing 90 days (as observed 2026-07-22)"
+subscribe:
+- email
+- slack
+versioning: {}
+deprecation: {}
+sla: {}
+notes: >-
+  Public Atlassian Statuspage covering the Main/Integration/Callback API servers,
+  the client app, Chargebee billing, and the Auth0 authorization server. A public
+  product roadmap is published at roadmap.zomentum.com. No formal SLA, versioning
+  policy, or deprecation/Sunset-header policy was found published at enrichment time.
