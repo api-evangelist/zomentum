@@ -55,6 +55,9 @@ apis:
   humanURL: https://api-docs.zomentum.com
   baseURL: https://api.zomentum.com
   tags:
+  - REST
+  - MSP
+  tags_raw:
   - API
   - REST
   - MSP
