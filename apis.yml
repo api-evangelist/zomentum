@@ -12,6 +12,17 @@ description: >-
   served from api.zomentum.com, that uses Bearer token authentication (Auth0-issued
   access and refresh tokens) provisioned through an API User in the dashboard and
   available on the Growth plan.
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: self-serve
