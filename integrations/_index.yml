@@ -131,7 +131,6 @@
   arazzo: null
 - slug: zomentum-monday-com
   label: monday.com
-  partner: monday-com
   partner_name: monday.com
   category: Project Management
   type: marketplace
@@ -178,7 +177,6 @@
   arazzo: null
 - slug: zomentum-microsoft-to-do
   label: Microsoft To Do
-  partner: microsoft-to-do
   partner_name: Microsoft To Do
   category: Microsoft
   type: marketplace
@@ -236,7 +234,6 @@
   arazzo: null
 - slug: zomentum-microsoft-office-365
   label: Microsoft Office 365
-  partner: microsoft-office-365
   partner_name: Microsoft Office 365
   category: Email
   type: marketplace
@@ -407,5 +404,32 @@
   channel: ipaas-usage
   evidence: https://zapier.com/apps/zomentum/integrations/shopify
   source: edge
+  status: pending-partner-spec
+  arazzo: null
+- slug: zomentum-zapier
+  label: Zapier
+  partner: zapier
+  partner_name: Zapier
+  type: marketplace
+  marketplace: zapier-directory
+  channel: ipaas-listing
+  evidence: https://zapier.com/apps/zomentum/integrations
+  source: edge
+  relationship: ipaas-bridge
+  contract_reference:
+    register: Zapier app directory (zapier.com/api/v4/apps)
+    spec_file: null
+    role: ipaas-connector:zapier
+    registered_name: Zomentum
+    matched_domain: zomentum.com
+    matched_by: domain
+    detected_by: sweep-workflow-automation.py
+    detected: '2026-10-15'
+    signal_note: one edge per (provider, platform); actions, triggers and usage counts are context, never read
+    app_slug: zomentum
+    beta: false
+    builder: unknown (not in the directory record)
+    other_apps:
+    - zomentum-partneralign
   status: pending-partner-spec
   arazzo: null
