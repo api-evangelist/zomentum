@@ -15,6 +15,7 @@
   evidence: https://zapier.com/apps/xero/integrations/zomentum/733000/create-xero-sales-invoices-from-newly-approved-documents-in-zomentum
   template: https://zapier.com/apps/xero/integrations/zomentum/733000/create-xero-sales-invoices-from-newly-approved-documents-in-zomentum
   source: template
+  relationship: ipaas-bridge
   status: pending-partner-spec
   arazzo: null
 - slug: zomentum-create-zomentum-clients-from-new-hubspot-companies
@@ -29,6 +30,7 @@
   evidence: https://zapier.com/apps/hubspot/integrations/zomentum/690056/create-zomentum-clients-from-new-hubspot-companies
   template: https://zapier.com/apps/hubspot/integrations/zomentum/690056/create-zomentum-clients-from-new-hubspot-companies
   source: template
+  relationship: ipaas-bridge
   status: pending-partner-spec
   arazzo: null
 - slug: zomentum-create-or-update-clients-in-zomentum-from-new-gravity-forms-submissions
@@ -43,6 +45,7 @@
   evidence: https://zapier.com/apps/gravity-forms/integrations/zomentum/702645/create-or-update-clients-in-zomentum-from-new-gravity-forms-submissions
   template: https://zapier.com/apps/gravity-forms/integrations/zomentum/702645/create-or-update-clients-in-zomentum-from-new-gravity-forms-submissions
   source: template
+  relationship: ipaas-bridge
   status: pending-partner-spec
   arazzo: null
 - slug: zomentum-add-recently-created-or-updated-hubspot-contacts-to-zomentum
@@ -57,6 +60,7 @@
   evidence: https://zapier.com/apps/hubspot/integrations/zomentum/702663/add-recently-created-or-updated-hubspot-contacts-to-zomentum
   template: https://zapier.com/apps/hubspot/integrations/zomentum/702663/add-recently-created-or-updated-hubspot-contacts-to-zomentum
   source: template
+  relationship: ipaas-bridge
   status: pending-partner-spec
   arazzo: null
 - slug: zomentum-update-hubspot-deals-for-new-opportunities-updates-in-zomentum
@@ -71,6 +75,7 @@
   evidence: https://zapier.com/apps/hubspot/integrations/zomentum/702668/update-hubspot-deals-for-new-opportunities-updates-in-zomentum
   template: https://zapier.com/apps/hubspot/integrations/zomentum/702668/update-hubspot-deals-for-new-opportunities-updates-in-zomentum
   source: template
+  relationship: ipaas-bridge
   status: pending-partner-spec
   arazzo: null
 - slug: zomentum-add-new-zomentum-opportunity-updates-to-autotask
@@ -84,6 +89,7 @@
   evidence: https://zapier.com/apps/autotask/integrations/zomentum/702681/add-new-zomentum-opportunity-updates-to-autotask
   template: https://zapier.com/apps/autotask/integrations/zomentum/702681/add-new-zomentum-opportunity-updates-to-autotask
   source: template
+  relationship: ipaas-bridge
   status: pending-partner-spec
   arazzo: null
 - slug: zomentum-update-zomentum-opportunities-with-new-deals-from-activecampaign
@@ -98,6 +104,7 @@
   evidence: https://zapier.com/apps/activecampaign/integrations/zomentum/702744/update-zomentum-opportunities-with-new-deals-from-activecampaign
   template: https://zapier.com/apps/activecampaign/integrations/zomentum/702744/update-zomentum-opportunities-with-new-deals-from-activecampaign
   source: template
+  relationship: ipaas-bridge
   status: pending-partner-spec
   arazzo: null
 - slug: zomentum-create-new-zomentum-clients-contacts-and-opportunities-from-new-gravity-forms-sub
@@ -112,6 +119,7 @@
   evidence: https://zapier.com/apps/gravity-forms/integrations/zomentum/770773/create-new-zomentum-clients-contacts-and-opportunities-from-new-gravity-forms-submissions
   template: https://zapier.com/apps/gravity-forms/integrations/zomentum/770773/create-new-zomentum-clients-contacts-and-opportunities-from-new-gravity-forms-submissions
   source: template
+  relationship: ipaas-bridge
   status: pending-partner-spec
   arazzo: null
 - slug: zomentum-create-or-update-clients-contacts-and-opportunities-in-zomentum-with-new-changes-
@@ -127,283 +135,7 @@
   evidence: https://zapier.com/apps/leadconnector/integrations/zomentum/1016194/create-or-update-clients-contacts-and-opportunities-in-zomentum-with-new-changes-to-leadconnector-pipeline-stages
   template: https://zapier.com/apps/leadconnector/integrations/zomentum/1016194/create-or-update-clients-contacts-and-opportunities-in-zomentum-with-new-changes-to-leadconnector-pipeline-stages
   source: template
-  status: pending-partner-spec
-  arazzo: null
-- slug: zomentum-monday-com
-  label: monday.com
-  partner_name: monday.com
-  category: Project Management
-  type: marketplace
-  marketplace: zapier
-  channel: ipaas-usage
-  evidence: https://zapier.com/apps/zomentum/integrations/monday
-  source: edge
-  status: pending-partner-spec
-  arazzo: null
-- slug: zomentum-google-docs
-  label: Google Docs
-  partner: google-docs
-  partner_name: Google Docs
-  category: Documents
-  type: marketplace
-  marketplace: zapier
-  channel: ipaas-usage
-  evidence: https://zapier.com/apps/zomentum/integrations/google-docs
-  source: edge
-  status: pending-partner-spec
-  arazzo: null
-- slug: zomentum-syncro
-  label: Syncro
-  partner_name: Syncro
-  category: CRM (Customer Relationship Management)
-  type: marketplace
-  marketplace: zapier
-  channel: ipaas-usage
-  evidence: https://zapier.com/apps/zomentum/integrations/syncro
-  source: edge
-  status: pending-partner-spec
-  arazzo: null
-- slug: zomentum-typeform
-  label: Typeform
-  partner: typeform
-  partner_name: Typeform
-  category: Forms & Surveys
-  type: marketplace
-  marketplace: zapier
-  channel: ipaas-usage
-  evidence: https://zapier.com/apps/zomentum/integrations/typeform
-  source: edge
-  status: pending-partner-spec
-  arazzo: null
-- slug: zomentum-microsoft-to-do
-  label: Microsoft To Do
-  partner_name: Microsoft To Do
-  category: Microsoft
-  type: marketplace
-  marketplace: zapier
-  channel: ipaas-usage
-  evidence: https://zapier.com/apps/zomentum/integrations/microsoft-todo
-  source: edge
-  status: pending-partner-spec
-  arazzo: null
-- slug: zomentum-halo-service-solutions
-  label: Halo Service Solutions
-  partner_name: Halo Service Solutions
-  category: Project Management
-  type: marketplace
-  marketplace: zapier
-  channel: ipaas-usage
-  evidence: https://zapier.com/apps/zomentum/integrations/halo-service-solutions
-  source: edge
-  status: pending-partner-spec
-  arazzo: null
-- slug: zomentum-google-forms-legacy
-  label: Google Forms (Legacy)
-  partner_name: Google Forms (Legacy)
-  category: Forms & Surveys
-  type: marketplace
-  marketplace: zapier
-  channel: ipaas-usage
-  evidence: https://zapier.com/apps/zomentum/integrations/google-forms-legacy
-  source: edge
-  status: pending-partner-spec
-  arazzo: null
-- slug: zomentum-google-forms
-  label: Google Forms
-  partner: google-forms
-  partner_name: Google Forms
-  category: Forms & Surveys
-  type: marketplace
-  marketplace: zapier
-  channel: ipaas-usage
-  evidence: https://zapier.com/apps/zomentum/integrations/google-forms
-  source: edge
-  status: pending-partner-spec
-  arazzo: null
-- slug: zomentum-wix
-  label: Wix
-  partner: wix
-  partner_name: Wix
-  category: Website Builders
-  type: marketplace
-  marketplace: zapier
-  channel: ipaas-usage
-  evidence: https://zapier.com/apps/zomentum/integrations/wix
-  source: edge
-  status: pending-partner-spec
-  arazzo: null
-- slug: zomentum-microsoft-office-365
-  label: Microsoft Office 365
-  partner_name: Microsoft Office 365
-  category: Email
-  type: marketplace
-  marketplace: zapier
-  channel: ipaas-usage
-  evidence: https://zapier.com/apps/zomentum/integrations/office-365
-  source: edge
-  status: pending-partner-spec
-  arazzo: null
-- slug: zomentum-pipedrive
-  label: Pipedrive
-  partner: pipedrive
-  partner_name: Pipedrive
-  category: CRM (Customer Relationship Management)
-  type: marketplace
-  marketplace: zapier
-  channel: ipaas-usage
-  evidence: https://zapier.com/apps/zomentum/integrations/pipedrive
-  source: edge
-  status: pending-partner-spec
-  arazzo: null
-- slug: zomentum-microsoft-dynamics-365-crm
-  label: Microsoft Dynamics 365 CRM
-  partner_name: Microsoft Dynamics 365 CRM
-  category: CRM (Customer Relationship Management)
-  type: marketplace
-  marketplace: zapier
-  channel: ipaas-usage
-  evidence: https://zapier.com/apps/zomentum/integrations/microsoft-dynamics-crm
-  source: edge
-  status: pending-partner-spec
-  arazzo: null
-- slug: zomentum-clickup
-  label: ClickUp
-  partner: clickup
-  partner_name: ClickUp
-  category: Project Management
-  type: marketplace
-  marketplace: zapier
-  channel: ipaas-usage
-  evidence: https://zapier.com/apps/zomentum/integrations/clickup
-  source: edge
-  status: pending-partner-spec
-  arazzo: null
-- slug: zomentum-nocrm-io
-  label: noCRM.io
-  partner_name: noCRM.io
-  category: CRM (Customer Relationship Management)
-  type: marketplace
-  marketplace: zapier
-  channel: ipaas-usage
-  evidence: https://zapier.com/apps/zomentum/integrations/nocrm-io
-  source: edge
-  status: pending-partner-spec
-  arazzo: null
-- slug: zomentum-google-sheets
-  label: Google Sheets
-  partner: google-sheets
-  partner_name: Google Sheets
-  category: Google
-  type: marketplace
-  marketplace: zapier
-  channel: ipaas-usage
-  evidence: https://zapier.com/apps/zomentum/integrations/google-sheets
-  source: edge
-  status: pending-partner-spec
-  arazzo: null
-- slug: zomentum-calendly
-  label: Calendly
-  partner: calendly
-  partner_name: Calendly
-  category: Scheduling & Booking
-  type: marketplace
-  marketplace: zapier
-  channel: ipaas-usage
-  evidence: https://zapier.com/apps/zomentum/integrations/calendly
-  source: edge
-  status: pending-partner-spec
-  arazzo: null
-- slug: zomentum-connectwise-manage
-  label: ConnectWise Manage
-  partner_name: ConnectWise Manage
-  category: CRM (Customer Relationship Management)
-  type: marketplace
-  marketplace: zapier
-  channel: ipaas-usage
-  evidence: https://zapier.com/apps/zomentum/integrations/connectwise-manage
-  source: edge
-  status: pending-partner-spec
-  arazzo: null
-- slug: zomentum-microsoft-teams
-  label: Microsoft Teams
-  partner: microsoft-teams
-  partner_name: Microsoft Teams
-  category: Microsoft
-  type: marketplace
-  marketplace: zapier
-  channel: ipaas-usage
-  evidence: https://zapier.com/apps/zomentum/integrations/microsoft-teams
-  source: edge
-  status: pending-partner-spec
-  arazzo: null
-- slug: zomentum-uplead
-  label: UpLead
-  partner: uplead
-  partner_name: UpLead
-  category: Contact Management
-  type: marketplace
-  marketplace: zapier
-  channel: ipaas-usage
-  evidence: https://zapier.com/apps/zomentum/integrations/uplead
-  source: edge
-  status: pending-partner-spec
-  arazzo: null
-- slug: zomentum-stencil
-  label: Stencil
-  partner_name: Stencil
-  category: Marketing
-  type: marketplace
-  marketplace: zapier
-  channel: ipaas-usage
-  evidence: https://zapier.com/apps/zomentum/integrations/stencil
-  source: edge
-  status: pending-partner-spec
-  arazzo: null
-- slug: zomentum-novocall
-  label: Novocall
-  partner: novocall
-  partner_name: Novocall
-  category: Call Tracking
-  type: marketplace
-  marketplace: zapier
-  channel: ipaas-usage
-  evidence: https://zapier.com/apps/zomentum/integrations/novocall
-  source: edge
-  status: pending-partner-spec
-  arazzo: null
-- slug: zomentum-mailchimp
-  label: Mailchimp
-  partner: mailchimp
-  partner_name: Mailchimp
-  category: Marketing Automation
-  type: marketplace
-  marketplace: zapier
-  channel: ipaas-usage
-  evidence: https://zapier.com/apps/zomentum/integrations/mailchimp
-  source: edge
-  status: pending-partner-spec
-  arazzo: null
-- slug: zomentum-chatgpt-openai
-  label: ChatGPT (OpenAI)
-  partner_name: ChatGPT (OpenAI)
-  category: AI Assistants
-  type: marketplace
-  marketplace: zapier
-  channel: ipaas-usage
-  evidence: https://zapier.com/apps/zomentum/integrations/chatgpt
-  source: edge
-  status: pending-partner-spec
-  arazzo: null
-- slug: zomentum-shopify
-  label: Shopify
-  partner: shopify
-  partner_name: Shopify
-  category: eCommerce
-  type: marketplace
-  marketplace: zapier
-  channel: ipaas-usage
-  evidence: https://zapier.com/apps/zomentum/integrations/shopify
-  source: edge
+  relationship: ipaas-bridge
   status: pending-partner-spec
   arazzo: null
 - slug: zomentum-zapier
@@ -432,4 +164,310 @@
     other_apps:
     - zomentum-partneralign
   status: not-a-workflow
+  arazzo: null
+- slug: zomentum-monday-com
+  label: monday.com
+  partner: monday-com
+  partner_name: monday.com
+  category: Project Management
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/zomentum/integrations/monday
+  source: edge
+  relationship: ipaas-bridge
+  status: pending-partner-spec
+  arazzo: null
+- slug: zomentum-google-docs
+  label: Google Docs
+  partner: google-docs
+  partner_name: Google Docs
+  category: Documents
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/zomentum/integrations/google-docs
+  source: edge
+  relationship: ipaas-bridge
+  status: pending-partner-spec
+  arazzo: null
+- slug: zomentum-syncro
+  label: Syncro
+  partner_name: Syncro
+  category: CRM (Customer Relationship Management)
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/zomentum/integrations/syncro
+  source: edge
+  relationship: ipaas-bridge
+  status: pending-partner-spec
+  arazzo: null
+- slug: zomentum-typeform
+  label: Typeform
+  partner: typeform
+  partner_name: Typeform
+  category: Forms & Surveys
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/zomentum/integrations/typeform
+  source: edge
+  relationship: ipaas-bridge
+  status: pending-partner-spec
+  arazzo: null
+- slug: zomentum-microsoft-to-do
+  label: Microsoft To Do
+  partner: microsoft-to-do
+  partner_name: Microsoft To Do
+  category: Microsoft
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/zomentum/integrations/microsoft-todo
+  source: edge
+  relationship: ipaas-bridge
+  status: pending-partner-spec
+  arazzo: null
+- slug: zomentum-halo-service-solutions
+  label: Halo Service Solutions
+  partner_name: Halo Service Solutions
+  category: Project Management
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/zomentum/integrations/halo-service-solutions
+  source: edge
+  relationship: ipaas-bridge
+  status: pending-partner-spec
+  arazzo: null
+- slug: zomentum-google-forms-legacy
+  label: Google Forms (Legacy)
+  partner: google-forms
+  partner_name: Google Forms (Legacy)
+  category: Forms & Surveys
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/zomentum/integrations/google-forms-legacy
+  source: edge
+  relationship: ipaas-bridge
+  status: pending-partner-spec
+  arazzo: null
+- slug: zomentum-mailchimp
+  label: Mailchimp
+  partner: mailchimp
+  partner_name: Mailchimp
+  category: Marketing Automation
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/zomentum/integrations/mailchimp
+  source: edge
+  relationship: ipaas-bridge
+  status: pending-partner-spec
+  arazzo: null
+- slug: zomentum-google-forms
+  label: Google Forms
+  partner: google-forms
+  partner_name: Google Forms
+  category: Forms & Surveys
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/zomentum/integrations/google-forms
+  source: edge
+  relationship: ipaas-bridge
+  status: pending-partner-spec
+  arazzo: null
+- slug: zomentum-wix
+  label: Wix
+  partner: wix
+  partner_name: Wix
+  category: Website Builders
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/zomentum/integrations/wix
+  source: edge
+  relationship: ipaas-bridge
+  status: pending-partner-spec
+  arazzo: null
+- slug: zomentum-microsoft-office-365
+  label: Microsoft Office 365
+  partner_name: Microsoft Office 365
+  category: Email
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/zomentum/integrations/office-365
+  source: edge
+  relationship: ipaas-bridge
+  status: pending-partner-spec
+  arazzo: null
+- slug: zomentum-pipedrive
+  label: Pipedrive
+  partner: pipedrive
+  partner_name: Pipedrive
+  category: CRM (Customer Relationship Management)
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/zomentum/integrations/pipedrive
+  source: edge
+  relationship: ipaas-bridge
+  status: pending-partner-spec
+  arazzo: null
+- slug: zomentum-microsoft-dynamics-365-crm
+  label: Microsoft Dynamics 365 CRM
+  partner: microsoft-dynamics-365
+  partner_name: Microsoft Dynamics 365 CRM
+  category: CRM (Customer Relationship Management)
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/zomentum/integrations/microsoft-dynamics-crm
+  source: edge
+  relationship: ipaas-bridge
+  status: pending-partner-spec
+  arazzo: null
+- slug: zomentum-clickup
+  label: ClickUp
+  partner: clickup
+  partner_name: ClickUp
+  category: Project Management
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/zomentum/integrations/clickup
+  source: edge
+  relationship: ipaas-bridge
+  status: pending-partner-spec
+  arazzo: null
+- slug: zomentum-nocrm-io
+  label: noCRM.io
+  partner_name: noCRM.io
+  category: CRM (Customer Relationship Management)
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/zomentum/integrations/nocrm-io
+  source: edge
+  relationship: ipaas-bridge
+  status: pending-partner-spec
+  arazzo: null
+- slug: zomentum-google-sheets
+  label: Google Sheets
+  partner: google-sheets
+  partner_name: Google Sheets
+  category: Google
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/zomentum/integrations/google-sheets
+  source: edge
+  relationship: ipaas-bridge
+  status: pending-partner-spec
+  arazzo: null
+- slug: zomentum-calendly
+  label: Calendly
+  partner: calendly
+  partner_name: Calendly
+  category: Scheduling & Booking
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/zomentum/integrations/calendly
+  source: edge
+  relationship: ipaas-bridge
+  status: pending-partner-spec
+  arazzo: null
+- slug: zomentum-connectwise-manage
+  label: ConnectWise Manage
+  partner_name: ConnectWise Manage
+  category: CRM (Customer Relationship Management)
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/zomentum/integrations/connectwise-manage
+  source: edge
+  relationship: ipaas-bridge
+  status: pending-partner-spec
+  arazzo: null
+- slug: zomentum-microsoft-teams
+  label: Microsoft Teams
+  partner: microsoft-teams
+  partner_name: Microsoft Teams
+  category: Microsoft
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/zomentum/integrations/microsoft-teams
+  source: edge
+  relationship: ipaas-bridge
+  status: pending-partner-spec
+  arazzo: null
+- slug: zomentum-uplead
+  label: UpLead
+  partner: uplead
+  partner_name: UpLead
+  category: Contact Management
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/zomentum/integrations/uplead
+  source: edge
+  relationship: ipaas-bridge
+  status: pending-partner-spec
+  arazzo: null
+- slug: zomentum-stencil
+  label: Stencil
+  partner_name: Stencil
+  category: Marketing
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/zomentum/integrations/stencil
+  source: edge
+  relationship: ipaas-bridge
+  status: pending-partner-spec
+  arazzo: null
+- slug: zomentum-novocall
+  label: Novocall
+  partner: novocall
+  partner_name: Novocall
+  category: Call Tracking
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/zomentum/integrations/novocall
+  source: edge
+  relationship: ipaas-bridge
+  status: pending-partner-spec
+  arazzo: null
+- slug: zomentum-chatgpt-openai
+  label: ChatGPT (OpenAI)
+  partner: openai
+  partner_name: ChatGPT (OpenAI)
+  category: AI Assistants
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/zomentum/integrations/chatgpt
+  source: edge
+  relationship: ipaas-bridge
+  status: pending-partner-spec
+  arazzo: null
+- slug: zomentum-shopify
+  label: Shopify
+  partner: shopify
+  partner_name: Shopify
+  category: eCommerce
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/zomentum/integrations/shopify
+  source: edge
+  relationship: ipaas-bridge
+  status: pending-partner-spec
   arazzo: null
